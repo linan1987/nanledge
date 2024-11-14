@@ -63,14 +63,6 @@ sudo chmod u+rwx /
 
 ## 99 三方库/服务
 
-### 99.1 nginx
-
-```
-# 配置文件(第2个是虚拟机配置文件)
-# /etc/nginx/nginx.conf
-# /etc/nginx/sites-available/default
-```
-
 ### 99.2 jdk
 
 #### 99.2.1 jdk 1.8

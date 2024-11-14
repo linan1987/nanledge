@@ -198,13 +198,3 @@ sudo yum install httpd-2.4.6-90.el7.centos
 
 ## 99 三方库/服务
 
-### 99.1 nginx
-
-```
-# 配置文件(第2个是虚拟机配置文件)
-# /etc/nginx/nginx.conf
-# /etc/nginx/sites-available/default
-
-# 命令
-sudo systemctl restart nginx
-```
