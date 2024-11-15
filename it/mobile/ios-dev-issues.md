@@ -31,7 +31,7 @@ Invalid Executable. The excecutable "...app/Frameworks/hermes.framework/hermes" 
 2、在 Frameworks 目录下，执行命令：
 
 ```
-xcrun bitcode_strip -r OneSignal.framework/OneSignal -o OneSignal.framework/OneSignal
+xcrun bitcode_strip -r hermes.framework/hermes -o hermes.framework/hermes
 ```
 
 ## SDK "iphoneos" cannot be located
