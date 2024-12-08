@@ -105,6 +105,9 @@ sudo yum update
 # 下载某软件
 sudo yum install xxx
 
+# 卸载某软件
+sudo yum remove xxx
+
 # 启动/重启某个服务
 sudo systemctl start/restart xxx
 ```
