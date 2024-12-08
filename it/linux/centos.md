@@ -98,7 +98,7 @@ ping 宿主ip
 
 #### 2.1.1 常见命令
 
-```
+```shell
 # 更新软件源
 sudo yum update
 
@@ -107,6 +107,12 @@ sudo yum install xxx
 
 # 启动/重启某个服务
 sudo systemctl start/restart xxx
+```
+
+```shell
+# centos 8+ 用 dnf 安装软件
+dnf module list nodejs
+dnf module install nodejs:20/common
 ```
 
 #### 2.1.2 分类
